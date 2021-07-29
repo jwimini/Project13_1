@@ -25,11 +25,19 @@
         android:layout_weight="1"
         android:gravity="center_horizontal">
         <Button
+            android:layout_weight="1"
             android:id="@+id/btn_start"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
             android:text="@string/btn_start"/>
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/btn_pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_pause"
+            android:layout_marginRight="10dp"/>
         <Button
             android:id="@+id/btn_stop"
             android:layout_width="wrap_content"
