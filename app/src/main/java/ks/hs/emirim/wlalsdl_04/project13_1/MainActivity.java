@@ -59,6 +59,7 @@ public class MainActivity extends AppCompatActivity {
         selectedMusic = arrList.get(0); // 리스트를 클릭하지 않았을때 초기값
         btnStart = findViewById(R.id.btn_start);
         btnStop = findViewById(R.id.btn_stop);
+        btnPause = findViewById(R.id.btn_pause);
         textMusic = findViewById(R.id.text_music);
         proBar = findViewById(R.id.progress);
         btnStart.setOnClickListener(new View.OnClickListener() {
